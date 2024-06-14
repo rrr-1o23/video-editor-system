@@ -90,7 +90,6 @@ Recived sample_compress.mp4
 
 #### ffmpegのインストール手順
 **Ubuntu**<br>
-Ubuntuにffmpegをインストール
 ```bash
 $ sudo apt update
 $ sudo apt install ffmpeg
