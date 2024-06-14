@@ -88,11 +88,12 @@ Ubuntuにffmpegをインストール
 ```bash
 $ sudo apt update
 $ sudo apt install ffmpeg
-```
-ffmpegのインストール確認<br>
-`$ ffmpeg -version`
 
-ffmpeg-pythonライブラリのインストール<br>
-`$ pip install ffmpeg-python`
+ffmpegのインストール確認
+$ ffmpeg -version
+
+ffmpeg-pythonライブラリのインストール
+$ pip install ffmpeg-python
+```
 
 &nbsp;
