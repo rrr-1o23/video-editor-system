@@ -55,7 +55,9 @@ Recived output_header!
 ```
 
 6. 以下が表示されれば './output' 内に変換されたファイルが保存されます．<br>
-`Recived sample_compress.mp4`
+```bash
+Recived sample_compress.mp4
+```
 
 &nbsp;
 
