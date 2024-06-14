@@ -19,13 +19,17 @@ Video Editor System はMP4ファイルから圧縮，解像度・アスペクト
 #### 操作方法
 
 1. ターミナルを開きserver.pyを立ち上げる<br>
-`$ python server.py`
+```bash
+$ python server.py
+```
 
 2. 別のターミナルを開きclient.pyを立ち上げる<br>
-`$ python client.py`
+```bash
+$ python client.py
+```
 
 3. './data'内のMP4ファイルの一覧が表示されるので変換したいMP4ファイルに該当する数字を入力してください．<br>
-```
+```bash
 ./data/sample.mp4 → 1
 
 Select the data number you want to send to the server from above. 
@@ -33,13 +37,13 @@ Select the data number you want to send to the server from above.
 ```
 
 4. 選択したMP4ファイルでよければ y と入力してください．<br>
-```
+```bash
 Are you sure it is sample.mp4? (y/n) → y
 Selected file bytes: 3.52MB
 ```
 
 5. どのように変換したいか尋ねてくるので該当する数字を入力してください．<br>
-```
+```bash
 1: compress
 2: change_resolution
 3: change_aspect_ratio
