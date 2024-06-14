@@ -1,7 +1,6 @@
 # Video Editor System
 
 #### 使用技術
----
 <p style="display: inline">
 <img src="https://img.shields.io/badge/-Linux-212121.svg?logo=linux&style=popout">
 <img src="https://img.shields.io/badge/-Python-FFC107.svg?logo=python&style=popout">
