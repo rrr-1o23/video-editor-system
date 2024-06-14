@@ -11,13 +11,12 @@
 &nbsp;
 
 ## 概要
----
+
 Video Editor System はMP4ファイルから圧縮，解像度・アスペクト比の調整，音声変換，GIFを生成するプログラムです．このプログラムでは，FFMPEGライブラリを用いてタスクを実行し，品質と互換性を確保しています．
 
 &nbsp;
 
 ## ディレクトリ構成
----
 ```
 .
 ├── server.py
@@ -32,7 +31,6 @@ Video Editor System はMP4ファイルから圧縮，解像度・アスペクト
 &nbsp;
 
 ## 環境構築
----
 #### 開発環境
 | OS・言語・ライブラリ | バージョン |
 | :------- | :------ |
@@ -42,9 +40,7 @@ Video Editor System はMP4ファイルから圧縮，解像度・アスペクト
 <br>
 
 #### ffmpegのインストール手順
----
-
-**Ubuntu**
+- **Ubuntu**
 ```bash
 Ubuntuにffmpegをインストール
 $ sudo apt update
