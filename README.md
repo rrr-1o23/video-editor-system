@@ -80,7 +80,7 @@ Recived sample_compress.mp4
 &nbsp;
 
 ## 環境構築
-#### 開発環境
+### 開発環境
 | OS・言語・ライブラリ | バージョン |
 | :------- | :------ |
 | Ubuntu | 22.04.4 LTS |
@@ -88,7 +88,7 @@ Recived sample_compress.mp4
 | ffmpeg | 4.4.2 |
 <br>
 
-#### ffmpegのインストール手順
+### ffmpegのインストール手順
 **Ubuntu**<br>
 ```bash
 $ sudo apt update
