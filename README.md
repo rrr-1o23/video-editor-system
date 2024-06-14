@@ -14,7 +14,6 @@
 Video Editor System はMP4ファイルから圧縮，解像度・アスペクト比の調整，音声変換，GIFを生成するプログラムです．
 このプログラムでは，FFMPEGライブラリを用いてタスクを実行し，品質と互換性を確保しています．
 
-
 &nbsp;
 
 #### 操作方法
@@ -25,7 +24,7 @@ Video Editor System はMP4ファイルから圧縮，解像度・アスペクト
 2. 別のターミナルを開きclient.pyを立ち上げる<br>
 `$ python client.py`
 
-'./data'内のMP4ファイルの一覧が表示されるので変換したいMP4ファイルに該当する数字を入力してください．
+3. './data'内のMP4ファイルの一覧が表示されるので変換したいMP4ファイルに該当する数字を入力してください．<br>
 ```
 ./data/sample.mp4 → 1
 
@@ -33,13 +32,13 @@ Select the data number you want to send to the server from above.
 → 1
 ```
 
-選択したMP4ファイルでよければ y　と入力してください．
+4. 選択したMP4ファイルでよければ y と入力してください．<br>
 ```
 Are you sure it is sample.mp4? (y/n) → y
 Selected file bytes: 3.52MB
 ```
 
-どのように変換したいか尋ねてくるので該当する数字を入力してください．
+5. どのように変換したいか尋ねてくるので該当する数字を入力してください．<br>
 ```
 1: compress
 2: change_resolution
@@ -55,9 +54,10 @@ Transmission of MP4 file completed!
 Recived output_header!
 ```
 
-以下が表示されれば './output' 内に変換されたファイルが保存されます．<br>
+6. 以下が表示されれば './output' 内に変換されたファイルが保存されます．<br>
 `Recived sample_compress.mp4`
 
+&nbsp;
 
 ## ディレクトリ構成
 ```
@@ -95,3 +95,4 @@ $ ffmpeg -version
 ffmpeg-pythonライブラリのインストール
 $ pip install ffmpeg-python
 ```
+&nbsp;
